@@ -1,1 +1,1 @@
-# odin-landing-page
+In odin-landing-page project I will have to show my HTML knowledge, combined with CSS, so that this page can have decent estetic appearance. Also, it will reveal my flexbox skills and what I have learned about this specific and really practical segment of modern CSS.
