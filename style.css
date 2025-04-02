@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .upper-section {
     background-color: #1f2937;
-    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -65,4 +65,82 @@ button {
     height: auto;
     width: 350px;
     border-radius: 10px;
+}
+
+.inner-section-one {
+    padding: 30px 200px;
+}
+
+.inner-section-one .title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.inner-section-one .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.inner-section-one .card-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.lh44 {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.inner-section-two {
+    background-color: #e5e7eb;
+}
+
+.inner-section-two .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: justify;
+    padding: 0px 200px;
+    padding-top: 100px;
+}
+
+.inner-section-two .by {
+    font-weight: 600;
+    text-align: end;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.inner-section-three {
+    background-color: #3882f6;
+    margin: 50px 150px;
+    border-radius: 10px;
+    color: #f9faf8;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-section-three .main-text {
+    font-weight: 700;
+}
+
+.inner-section-three .subtext {
+    font-size: 12px;
+    font-weight: 50;
+}
+
+.signup-bottom {
+    border: 2px solid white;
+    border-radius: 5px;
 }
